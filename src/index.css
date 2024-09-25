@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: poppins;
+  overflow-x: hidden;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+@font-face {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/poppins/poppins-bold-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/poppins/poppins-bold-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/poppins/poppins-medium-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/poppins/poppins-semibold-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins/poppins-regular-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/poppins/poppins-light-webfont.woff') format('woff');
+}
+:root{
+  --color_fff:#fff;
+  --color_C90000:#C90000;
+  --color_7D7C7C:#7D7C7C;
+  --color_504F4F:#504F4F;
+  --color_323232:#323232;
+  --color_FFC300:#FFC300;
+  --color_FFF6A3:#FFF6A3;
+  --color_E3E3E3:#E3E3E3;
+  --color_F1F1F1:#F1F1F1;
+  --color_FFFDE6:#FFFDE6;
+  --color_rgb_241:rgba(241, 241, 241, 0.70);
+  --color_rgb_241-040:rgba(241, 241, 241, 0.40);
+  --color_rgb_122_144_176:rgba(112, 144, 176, 0.20);
+}
+img{
+  width: 100%;
+}
